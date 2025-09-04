@@ -10,7 +10,7 @@ import "./App.css";
 
 
 let router = createHashRouter([
-  { path: "", element: <Layout /> },
+  { path: "/", element: <Layout /> },
   { path: "/map1", element: <Map1 /> },
   { path: "/map2", element: <Map2 /> },
   { path: "/map3", element: <Map3 /> },
