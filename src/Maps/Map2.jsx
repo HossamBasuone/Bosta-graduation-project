@@ -16,7 +16,7 @@ import { Progress, Tag, Table } from "antd";
 
 // ✅ أيقونة بوسطة لأول نقطة
 const bostaIcon = new L.Icon({
-  iconUrl: "/Bosta Logo.svg",
+  iconUrl: `${import.meta.env.BASE_URL}Bosta Logo.svg`,
   iconSize: [60, 60],
   iconAnchor: [20, 40],
   popupAnchor: [0, -40],
@@ -24,7 +24,7 @@ const bostaIcon = new L.Icon({
 
 // ✅ أيقونة location لكل النقاط الأخرى
 const checkpointIcon = new L.Icon({
-  iconUrl: "/free-location-icon-2952-thumb.png", // داخل public
+  iconUrl: `${import.meta.env.BASE_URL}free-location-icon-2952-thumb.png`,
   iconSize: [32, 32],
   iconAnchor: [16, 32],
   popupAnchor: [0, -32],
